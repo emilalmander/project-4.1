@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'style.css' %}"> 
+  
+
+  
+</head>
+
+<body>
+  <header>
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+  
+      <ul class="menu__box">
+        <li><a class="menu__item" href="#">Home</a></li>
+        <li><a class="menu__item" href="#location">location</a></li>
+        
+        <li><a class="menu__item" href="#slider">the food</a></li>
+        <li><a class="menu__item" href="#reservation_info_section">reservation info</a></li>
+      </ul>
+    </div>
+    <div class="Kaiseki_Storeys">
+      <ul><a href="#">Kaiseki Storeys</a></ul>
+    </div>
+    
+
+    
+
+
+  </header>
+    
+  <main>
+    <div class="background-container">
+      <img src="static/images/stefen-tan-_sfMD-OhFR8-unsplash.jpg">
+      <div class="welcome_to_keiseki_storeys">
+        <h1>welcome to Keiseki Storeys</h1>
+      </div>
+    </div>
+
+    <div id="location" class="location">
+      <img src="static/images/jason-sung-zallf-0YGJM-unsplash.jpg">
+        <div class="resturant_location">
+          <h1>Strömstadsvägen 15, 455 30 Munkedal Sweden</h1>
+        </div>
+    </div>
+
+    <div id="slider" class="slider">
+      <div class="arrow left">&lt;</div>
+      <div class="arrow right">&gt;</div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+    </div>
+    <script src="main.js"></script>
+
+    <div id="reservation_info_section"class="make_a_reservation">
+      <img src="static/images/jonathan-borba-KbTlF4lABFM-unsplash.jpg">
+      <div class="reservation_info">
+        <h1>MAKE A BOOKING</h1>
+        <h2>We will be closed from August 10th to September 15th.</h2>
+        <h3>Tables for the next month will open for booking on the 15th of each month at 9 AM local time.</h3>
+        <h3>Please note that we are unable to accommodate gluten-free menus or menus free from shellfish and peanuts.</h3>
+        
+        
+          
+      </div>
+    </div>
+  </main>
+</body>
+</html>
