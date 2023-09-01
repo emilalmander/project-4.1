@@ -33,7 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "8000-emilalmander-project41-z04a47igl1i.ws-eu104.gitpod.io",
-    "project41.herokuapp.com"
+    "project41-5cefba944fbb.herokuapp.com"
 ]
 
 
