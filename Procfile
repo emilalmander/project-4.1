@@ -1,1 +1,1 @@
-web: gunicorn resturant.wsgi
+web: gunicorn project41.wsgi
