@@ -4,11 +4,11 @@ const arrowRight = document.querySelector('.arrow.right');
 let currentIndex = 0;
 
 const images = [
-  'images/cloris-ying-i4Ie3P_JlgU-unsplash.jpg',
-  'images/kae-ng-qjM403Kjw00-unsplash.jpg',
-  'images/susann-schuster-5x8dUGe-7Fo-unsplash.jpg',
-  'images/mahmoud-fawzy-Dbx6-XZY6Dg-unsplash.jpg',
-  'images/paulo-doi-6uTQmtqcAzs-unsplash.jpg'
+  'static/images/cloris-ying-i4Ie3P_JlgU-unsplash.jpg',
+  'static/images/kae-ng-qjM403Kjw00-unsplash.jpg',
+  'static/images/susann-schuster-5x8dUGe-7Fo-unsplash.jpg',
+  'static/images/mahmoud-fawzy-Dbx6-XZY6Dg-unsplash.jpg',
+  'static/images/paulo-doi-6uTQmtqcAzs-unsplash.jpg'
 ];
 
 function showSlide(index) {

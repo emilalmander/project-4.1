@@ -32,7 +32,7 @@ SECRET_KEY = 'hemligaNyckeln'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "8000-emilalmander-project41-eyad47m5cgj.ws-eu104.gitpod.io",
+    "8000-emilalmander-project41-ci01xsw47ny.ws-eu104.gitpod.io",
     "project41-5cefba944fbb.herokuapp.com"
 ]
 
